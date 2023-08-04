@@ -1,0 +1,19 @@
+Cuentas para almacenar datos
+Cuentas propiedad del sistema
+Cuentas de programas para almacenar ejecutables 
+Cuentas nativas para programas solana System,Stake,Vote
+
+Fracciones de solana son los lamports
+1.- Se paga por una transaccion 
+2.- Se paga por época
+
+Tipos de programas 
+Programas Nativos 
+-Administrar Cuentas
+- Transferir solana
+
+Programa de libreria 
+Creacion tokens 
+Intercambio de tokens 
+generar staking 
+mantener servicios de nombres de dominio

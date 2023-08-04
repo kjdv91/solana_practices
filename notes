@@ -1,0 +1,44 @@
+rust 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+export PATH="$HOME/.cargo/env"
+cargo --version
+rustup --version
+Subsistema windows para linux solana
+sh -c "$(curl -sSfL https://release.solana.com/v1.16.0/install)"
+
+export PATH="/home/kevin/.local/share/solana/install/active_release/bin:$PATH"
+anchor 
+instalar antes
+apt-get install libssl-dev libudev-dev pkg-config zlib-dev llvm clang cmake libprotobuf-dev protobuf-compiler
+
+npm install -g yarn
+apy install yarn
+
+solana-keygen --version  //version new wallet
+solana-keygen new --no-outfile   //new wallet
+
+solana airdrop 1 558YQ65C71yL2tXH9cQw8jwDvjsxtrULQCujCUdwtPce --url https://api.devnet.solana.com
+solana balance 558YQ65C71yL2tXH9cQw8jwDvjsxtrULQCujCUdwtPce --url http://api.devnet.solana.com
+solana transfer --from <KEYPAIR> <RECIPIENT_ACCOUNT_ADDRESS> 0.5 --allow-unfunded-recipient --url https://api.devnet.solana.com --fee-payer <KEYPAIR>
+solana-test-validator
+solana address
+solana-keygen new
+anchor init solana-bam
+cd solana-bam
+
+
+anchor build
+anchor deploy 
+
+solana program show --programs
+anchor init + name
+anchor build 
+anchor deploy 
+solana program show --programs
+
+Compilers Cargo
+forms to compile architecture
+cargo build
+cargo build-bpf //deprecated
+cargo build-sbf  //light libraries
+
